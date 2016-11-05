@@ -25,7 +25,8 @@ It is finished by the date 04.07.2016
 - The average and overall manna of the army.
 - How much gold will much does  it cost to supports that army?
 
-A bonus: Calculate the maximum number of overall magics which the magicians can use in one army.
+A bonus: 
+- Calculate the maximum number of overall magics which the magicians can use in one army.
  Keep in mind that a magician can use only his book and when the magician use a magic his manna
  decrease by the manna the spell requires.
   
