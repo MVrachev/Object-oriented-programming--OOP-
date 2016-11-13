@@ -24,39 +24,43 @@ I must admit the project is not fully completed. This is a final project of my O
 Дадените по-долу команди трябва да се поддържат от всеки от проектите (под всяка от
 командите е даден пример за нейната работа):
 
- * Open:
+- Open:
 Зарежда съдържанието на даден файл. Ако такъв не съществува се създава нов с празно
 съдържание.
 Останалите команди могат да се изпълняват само ако има успешно зареден файл.
 
-- example:
+example:
+
 > open C:\Temp\file.xml
 Successfully opened file.xml
 
- * Close
+- Close
 Затваря текущо отворения файл.
 
-- example:
+example:
 
 > close
 Successfully closed file.xml
 
- * Save
+- Save
 Записва направените промени обратно в същия файл, от който са били прочетени данните.
 
-- example: 
+example: 
+
 > save
 Successfully saved file.xml
 
- * Save As
+- Save As
 Записва направените промени във файл, като позволява на потребителя да укаже неговия път.
 
-- example:
+example:
+
 > saveas "C:\Temp\another file.xml"
 Successfully saved another file.xml
 
- * Exit
+- Exit
 Излиза от програмата
 
-- example:
+example:
+
 > exit
