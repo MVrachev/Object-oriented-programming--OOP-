@@ -16,7 +16,7 @@ void Rectangle::create()
 		<< "You coud enter the following colours:\n"
 		<< "0 - black, 1 - red, 2 - blue, 3 - green, 4 - purple, 5 - orange\n";
 	cin >> x >> y >> width >> height;
-	int wrongCount = 0; // броя колко грешни входа  са направени за удобство при съобщенията
+	int wrongCount = 0;
 	do
 	{
 		++wrongCount;
