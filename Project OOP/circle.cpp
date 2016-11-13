@@ -14,7 +14,7 @@ void Circle::create()
 		<< "You coud enter the following colours:\n"
 		<< "0 - black, 1 - red, 2 - blue, 3 - green, 4 - purple, 5 - orange\n";
 	cin >> cx >> cy >> r;
-	int wrongCount = 0; // I count how many wrong inputs are given for ease for error nessages
+	int wrongCount = 0; // I count how many wrong inputs are given for ease for error messages
 	do
 	{
 		++wrongCount;
