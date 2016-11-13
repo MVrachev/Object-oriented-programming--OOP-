@@ -37,7 +37,7 @@ void Line::create()
 		<< "You coud enter the following colours:\n"
 		<< "0 - black, 1 - red, 2 - blue, 3 - green, 4 - purple, 5 - orange\n";
 	cin >> x1 >> y1 >> x2 >> y2;
-	int wrongCount = 0; // броя колко грешни входа  са направени за удобство при съобщенията
+	int wrongCount = 0; // I count how many wrong inputs are given for ease for error messages
 	do
 	{
 		++wrongCount;
@@ -62,8 +62,9 @@ bool Line::within(double maxCX, double maxCY, double lowestCX, double lowestCY)
 
 bool Line::readFromFileLine(ifstream &fileRead, int partFileBegin)
 {
-	//Не взимам целия файл, а взимам част от файла, 
-	//до където съм прочел в commands и за нея правя проверките
+	// I don't take the whole file but only a part of it, 
+	// the part I've already red in "commands"
+	// and for that part I do the changes
 	fileRead.seekg(partFileBegin, ios::beg);
 	int momentFileLenght = fileRead.tellg();
 	fileRead.seekg(0, ios::beg);
