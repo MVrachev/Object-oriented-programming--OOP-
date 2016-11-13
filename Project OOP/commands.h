@@ -9,11 +9,11 @@ class Commands
 	char *fileDirectory;
 public:
 
-	bool c_open();		//Слагам общ префикс c_ за да покажа, че когато се викат се викат функциите от класа Commands, 
-	bool c_save();	//	а не функциите от класа на някоя фигура.
+	bool c_open();		
+	bool c_save();	
 	bool c_saveAs();
 	void c_close(fstream &file);
-						//	Команди върху самия масив от фигури
+						// Commands on the array of figures itself
 	void c_print();
 	bool c_create(char *figureType);
 	bool c_erase(int index);
