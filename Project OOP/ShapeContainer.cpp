@@ -10,8 +10,8 @@ void ShapeContainer::copyFigures(const ShapeContainer &right)
 	shapesArr = new Shape*[size];
 	for (unsigned int i = 0; i < size; ++i)
 	{
-		shapesArr[i] = right.shapesArr[i]->clone();	// Клонирам right обектите, защото не искам да получа случай, в който										// 
-	}												// указателите на shapesArr и right.shapesArr да сочат едни и същи обекти
+		shapesArr[i] = right.shapesArr[i]->clone();	//  I clone the right objects, because I want to prevent the case when  										// 
+	}					// the pointers of shapesArr and right.shapesArr will point at the same objects
 }
 
 ShapeContainer::ShapeContainer(const ShapeContainer &right)
