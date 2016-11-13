@@ -164,7 +164,7 @@ bool recogniseCommands(Commands &userCommands, char *command)
 				cin >> r;
 				if (userCommands.c_within(x + r, y + r, x - r, y - r) == false)
 					cerr << "There are no figures in that region!\n";
-			//Знам, че ако фигура се намира между x+r,x-r (аналогично и за y), то тя ще е вътре в областа (кръга)
+
 			}
 			else if (!strcmp(withinType, "rectangle"))
 			{
@@ -223,7 +223,6 @@ int main(){
 	Commands userCommands;
 	do
 	{
-		//Друго трябва да пише вече
 		if (FirstTime == true)
 		{
 			cout << "The first command shoud be open or exit. The other commands cannot be done if there's no opened file!\n";
@@ -231,7 +230,7 @@ int main(){
 		}
 		cout << "Enter a command: ";
 		cin >> command;
-		// D:/Martin's stuff/Visual Studio 2013/Projects/Project - OOP/Project - OOP/you.svg	// пример за правилно написан път
+
 		if (!strcmp(command, "open"))
 			FirstTime = false;
 		if (FirstTime == true && strcmp(command, "open")!=0)
