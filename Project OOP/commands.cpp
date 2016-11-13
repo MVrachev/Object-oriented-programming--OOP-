@@ -9,16 +9,12 @@
 
 using namespace std;
 
-// Направи проверка на всяка една команда дали първо е направена команда open!
-
-//Направи си копи конструкторите
-
 
 
 void Commands::copyCommands(const Commands &right)
 {
 	setDirectory(right.fileDirectory);
-	//трябва да направя копи на новия обект 
+	
 }
 
 Commands::Commands(const Commands &right)
@@ -41,9 +37,6 @@ bool Commands::c_open()
 	cin.ignore();
 	cin.getline(directory, 200);
 
-	// D:/Martin's stuff/Visual Studio 2013/Projects/Project - OOP/Project - OOP/you.svg	// пример за правилно написан път
-	//	D:/Martin's stuff/Visual Studio 2013/Projects/Project - OOP/Project - OOP/new.svg
-	// D:/Martin's stuff/Visual Studio 2013/Projects/Project - OOP/Project - OOP/Example - SVG view.svg
 	ifstream fileRead(directory, ios::in);
 	if (!fileRead)
 	{
@@ -79,8 +72,6 @@ bool Commands::c_open()
 	Line newLine;
 	Rectangle newRectangle;
 	int partFileBegin = 0;
-	// Ще поддам два индекса за записване от файла, понеже ако започвам винаги от начало 
-	// и имам два кръга, то при всяко викане на fileWrite() на circle ще се взима един и същи кръг
 	for (int i = 5; i < fileLeght; ++i)
 	{
 		if (newCircle.readFromFileCircle(fileRead, partFileBegin) == true)
@@ -106,7 +97,7 @@ bool Commands::c_open()
 	
 	cout << "The file is opened or created succsesfully!\n";
 	this->setDirectory(directory);
-	fileRead.close();  // трябва с команда close да се затвори
+	fileRead.close();  
 	delete[]wholeFile;
 	return true;
 }
