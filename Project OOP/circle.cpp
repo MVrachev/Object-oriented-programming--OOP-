@@ -14,7 +14,7 @@ void Circle::create()
 		<< "You coud enter the following colours:\n"
 		<< "0 - black, 1 - red, 2 - blue, 3 - green, 4 - purple, 5 - orange\n";
 	cin >> cx >> cy >> r;
-	int wrongCount = 0; // броя колко грешни входа  са направени за удобство при съобщенията
+	int wrongCount = 0; // I count how many wrong inputs are given for ease for error nessages
 	do
 	{
 		++wrongCount;
@@ -68,8 +68,8 @@ void Circle::fileWrite()
 
 bool Circle::readFromFileCircle(ifstream &fileRead, int partFileBegin)
 {
-	//Не взимам целия файл, а взимам част от файла, 
-	//до където съм прочел в commands и за нея правя проверките
+	//ГЌГҐ ГўГ§ГЁГ¬Г Г¬ Г¶ГҐГ«ГЁГї ГґГ Г©Г«, Г  ГўГ§ГЁГ¬Г Г¬ Г·Г Г±ГІ Г®ГІ ГґГ Г©Г«Г , 
+	//Г¤Г® ГЄГєГ¤ГҐГІГ® Г±ГєГ¬ ГЇГ°Г®Г·ГҐГ« Гў commands ГЁ Г§Г  Г­ГҐГї ГЇГ°Г ГўГї ГЇГ°Г®ГўГҐГ°ГЄГЁГІГҐ
 	fileRead.seekg(partFileBegin, ios::beg);
 	int momentFileLenght = fileRead.tellg();
 	fileRead.seekg(0, ios::beg);
