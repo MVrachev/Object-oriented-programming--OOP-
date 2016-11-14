@@ -36,14 +36,20 @@ o      Колко злато на месец ще му излиза поддръ
 ·      Описанията трябва да са текстове с произволна дължина.
 ·      В магическата книга страниците са колкото броя на заклинанията + 1 ( за празната страница ).
 ·      Един маг не може да използва заклинание, което изисква повече магическа мощ от неговата.
-·      Всеки от командващите (сержант, маг и главнокомандващ) трябва има по-високо ниво на бойните умения от войниците (в частност това могат да са войници, сержанти и магове), които са под негово командване.
-·      Ако при реализацията използвате някакви библиотеки, то трябва да можете на защитата да обясните точно какво правят, защо ги използвате, както и да реализирате на място функциите които са в тези библиотеки, спазвайки характеристиките на библиотеката. Изключение се допуска за библиотеките за вход / изход (iostream, fstream), както и за cassert. За тях ще е нужно да обясните само каква е целта им и какви са добрите практики при използването им.
+·      Всеки от командващите (сержант, маг и главнокомандващ) трябва има по-високо ниво на бойните умения 
+от войниците (в частност това могат да са войници, сержанти и магове), които са под негово командване.
+·      Ако при реализацията използвате някакви библиотеки, то трябва да можете на защитата да обясните точно какво правят, 
+защо ги използвате, както и да реализирате на място функциите които са в тези библиотеки, спазвайки характеристиките на библиотеката.
+Изключение се допуска за библиотеките за вход / изход (iostream, fstream), както и за cassert. 
+За тях ще е нужно да обясните само каква е целта им и какви са добрите практики при използването им.
 ·      Имате право да дефинирате допълнителни полета в тези класове, и всякакви методи, които ще ви помогнат да решите по-добре задачата си. Също така можете да дефинирате допълнителни класове.
 
 
+
 -----------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 This is a homework from the course "Object oriented programming" in St. Kliment Ohridski university of Sofia.
@@ -56,7 +62,7 @@ It is finished by the date of 04.07.2016
   and salary in golden coins.
 * Create a class sergeant which inherits the soldier class, 
   In addition description of the platoon he is leading and and the sodliers which forms the platoon as an array.
-* Create a class magic which has descritiona, type of the magic and how much manna requires.
+* Create a class magic which has descrition, type of the magic and how much manna requires.
 * Create a class magic book, which has pages of magics, every one of the magics can be used only once
   (after that it disappears with the whole page). Because the book isn't just a book, 
   but it's a magical book that's why she always has one empty page at the end giving the opportunity of it's owner
@@ -72,8 +78,21 @@ It is finished by the date of 04.07.2016
 - The average and overall manna of the army.
 - How much gold will much does  it cost to supports that army?
 
+
 A bonus: 
 - Calculate the maximum number of overall magics which the magicians can use in one army.
  Keep in mind that a magician can use only his book and when the magician use a magic his manna
  decrease by the manna the spell requires.
+ 
+ 
+ A few important notes :
+ - The descriptions shoud be text with dynamic lenght.
+ - In the magic book the amount of pages are as much as the magics + 1 (for the empty page).
+ - One mage can't use a magic which requires more manna than he owns.
+ - Everyone from the commanders (sergeant, magician, commander)  shoud have higher fighting skill than the soldiers that he commands.
+- If you use any libaries you shoud be able to explain about them what they exactly do, 
+because if you use them you shoud be able to implement some of the libraries functions when we want that.
+An exception is using the libraries fstream and cassert. 
+For them you shoud be albe just to explain what are the good practices when we use them.
+ 
   
