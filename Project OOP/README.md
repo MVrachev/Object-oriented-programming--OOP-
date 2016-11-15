@@ -278,7 +278,7 @@ After you load the file, the user should  be able to execute the commands specif
 When you save the figures in a file you should create valid SVG file.
 
 
-**Operations executed upon the file content**
+**Operations executed upon the file content:**
 
 *Print* prints all figures.
 
@@ -293,7 +293,8 @@ If the user specify a shape only that figure is translated.
 *Within* prints all figures, which are in specific region.
 The user can specify what region, area will be a circle or rectangle.
 
-**An example of SVG file figures.svg**
+
+**An example of SVG file figures.svg:**
 
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
@@ -303,6 +304,7 @@ The user can specify what region, area will be a circle or rectangle.
  <circle cx="5" cy="5" r="10" fill="blue" />
  <rect x="100" y="60" width="10" height="10" fill="red" />
 </svg>
+
 
 
 **An example how your application should work:**
