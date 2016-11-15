@@ -119,13 +119,13 @@ Within Извежда на екрана всички фигури, които п
 
 *open figures.svg*
 
-Successsfully opened figures.svg
+''Successsfully opened figures.svg''
 
 *print*
 
-1. rectangle 5 5 10 10 green
-2. circle 5 5 10 blue
-3. rectangle 100 60 10 10 red
+''1. rectangle 5 5 10 10 green''
+''2. circle 5 5 10 blue''
+''3. rectangle 100 60 10 10 red''
 
 *create rectangle -1000 -1000 10 20 yellow*
 
