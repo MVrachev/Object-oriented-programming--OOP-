@@ -35,7 +35,7 @@
 съдържание.
 Останалите команди могат да се изпълняват само ако има успешно зареден файл.
 
-example:
+пример:
 
 > open C:\Temp\file.xml
 Successfully opened file.xml
@@ -43,7 +43,7 @@ Successfully opened file.xml
 - Close
 Затваря текущо отворения файл.
 
-example:
+пример:
 
 > close
 Successfully closed file.xml
@@ -51,7 +51,7 @@ Successfully closed file.xml
 - Save
 Записва направените промени обратно в същия файл, от който са били прочетени данните.
 
-example: 
+пример: 
 
 > save
 Successfully saved file.xml
@@ -59,7 +59,7 @@ Successfully saved file.xml
 - Save As
 Записва направените промени във файл, като позволява на потребителя да укаже неговия път.
 
-example:
+пример:
 
 > saveas "C:\Temp\another file.xml"
 Successfully saved another file.xml
@@ -67,7 +67,7 @@ Successfully saved another file.xml
 - Exit
 Излиза от програмата
 
-example:
+пример:
 
 > exit
 
@@ -188,9 +188,71 @@ Within Извежда на екрана всички фигури, които п
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 
+                                                               **Enligsh**
 
 I must admit that the project is not fully completed. The unfinished part of the project is mostly connected with files. The whole work with polymorphism  is finished. is a final project of my Object oriented programming university cours in St. Kliment Ohridski university of Sofia. It is start at 06.07.2016 and finished by the date of: 16.07.2016.
 
 
+**The way your program shoud work**
 
+Your program should allow the user with the ability to open files (open), to do some operations upon them and after that to save the
+changes back on top of the same file (save) or on top of another which the user wil specify (save as). There should be an option for closing the file without saving the changes (close). For that purpose, after the program is started the user should be able to input
+different commands after that to execute them.
+
+When you open certain file it's content has to be loaded in the memory and after that the file is closed. All changes which the user
+does after that should be kept in the memory, but they shouldn't be saved on top of the file content unless the user dont give a command for it.
+
+Your program must:
+1) be able to read a random file from the file format which is specified below;
+2) be able when saving the changes to create again a valid file from the same format.
+
+As we said above the user has to be able to input commands whereby to specify what exactly to be done. The commands shoud have
+zero, one or more parameters, which are given one after another separated with spaces.
+
+If it's not specified any command must display a message which shows if the operations is executed successfully or not.
+
+The commands must be supported from every project (below every command there's an example):
+
+- Open:
+Зарежда съдържанието на даден файл. Ако такъв не съществува се създава нов с празно
+съдържание.
+Останалите команди могат да се изпълняват само ако има успешно зареден файл.
+
+example:
+
+> open C:\Temp\file.xml
+Successfully opened file.xml
+
+- Close
+Затваря текущо отворения файл.
+
+example:
+
+> close
+Successfully closed file.xml
+
+- Save
+Записва направените промени обратно в същия файл, от който са били прочетени данните.
+
+example: 
+
+> save
+Successfully saved file.xml
+
+- Save As
+Записва направените промени във файл, като позволява на потребителя да укаже неговия път.
+
+example:
+
+> saveas "C:\Temp\another file.xml"
+Successfully saved another file.xml
+
+- Exit
+Излиза от програмата
+
+example:
+
+> exit
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
