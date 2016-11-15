@@ -93,6 +93,7 @@ Successfully saved another file.xml
 Когато записвате фигурите във файл, трябва да генерирате валиден SVG файл
 
 **Операции върху съдържанието на файла**
+
 *Print* Извежда на екрана всички фигури.
 
 *Create* Създава нова фигура.
@@ -107,7 +108,7 @@ Successfully saved another file.xml
 Потребителят може да укаже какъв да бъде регионът – кръг или
 правоъгълник
 
-- Примерен SVG файл figures.svg
+**Примерен SVG файл figures.svg**
 
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
@@ -193,7 +194,7 @@ Successfully saved another file.xml
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 
-                                                               Enligsh
+                                                        Enligsh
 
 I must admit that the project is not fully completed. The unfinished part of the project is mostly connected with files. The whole work with polymorphism  is finished. is a final project of my Object oriented programming university cours in St. Kliment Ohridski university of Sofia. It is start at 06.07.2016 and finished by the date of: 16.07.2016.
 
@@ -275,4 +276,99 @@ While you are loading the content of an SVG file you can only read the shapes yo
 After you load the file, the user should  be able to execute the commands specified below who adds, deletes or changes figures.
 
 When you save the figures in a file you should create valid SVG file.
+
+
+**Operations executed upon the file content**
+
+*Print* prints all figures.
+
+*Create* creates new figure.
+
+*Erase* deletes figure.
+
+*Translate* Translate one or all shapes. If the user don't specify certain shape all shapes will be translated. 
+If the user specify a shape only that figure is translated.
+
+
+*Within* prints all figures, which are in specific region.
+The user can specify what region, area will be a circle or rectangle.
+
+**An example of SVG file figures.svg**
+
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg>
+ <rect x="5" y="5" width="10" height="10" fill="green" />
+ <circle cx="5" cy="5" r="10" fill="blue" />
+ <rect x="100" y="60" width="10" height="10" fill="red" />
+</svg>
+
+
+**An example how your application should work:**
+
+
+*open figures.svg*
+
+``Successsfully opened figures.svg``
+
+*print*
+
+``1. rectangle 5 5 10 10 green``
+``2. circle 5 5 10 blue``
+``3. rectangle 100 60 10 10 red``
+
+
+*create rectangle -1000 -1000 10 20 yellow*
+
+``Successfully created rectangle (4)``
+
+
+*print*
+
+``1. rectangle 1 1 10 20 green``
+``2. circle 5 5 10 blue``
+``3. rectangle 100 60 10 10 red``
+``4. rectangle 1000 1000 10 20 yellow``
+
+*within rectangle 0 0 30 30*
+
+``1. rectangle 5 5 10 10 green``
+``2. circle 5 5 10 blue``
+
+*within circle 0 0 5*
+
+``figures are located within circle 0 0 5``
+
+*erase 2*
+
+``Erased a circle (2)``
+
+*erase 100*
+
+``There is no figure number 100!``
+
+*print*
+
+``1. rectangle 5 5 10 10 green``
+``2. rectangle 100 60 10 10 red``
+``3. rectangle 1000 1000 10 20 yellow``
+
+*translate vertical=10 horizontal=100*
+
+``Translated all figures``
+
+*print*
+
+``1. rectangle 105 15 10 10 green``
+``2. rectangle 200 70 10 10 red``
+``3. rectangle 1100 1010 10 20 yellow``
+
+*save*
+
+``Successfully saved the changes to figures.svg``
+
+*exit*
+
+``Exit``
 
