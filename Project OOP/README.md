@@ -119,7 +119,7 @@ Within Извежда на екрана всички фигури, които п
 
 *open figures.svg*
 
-''Successsfully opened figures.svg''
+``Successsfully opened figures.svg``
 
 *print*
 
@@ -130,7 +130,7 @@ Within Извежда на екрана всички фигури, които п
 
 *create rectangle -1000 -1000 10 20 yellow*
 
-Successfully created rectangle (4)
+``Successfully created rectangle (4)``
 
 
 *print*
@@ -147,11 +147,11 @@ Successfully created rectangle (4)
 
 *within circle 0 0 5*
 
-``- No figures are located within circle 0 0 5``
+``o figures are located within circle 0 0 5``
 
 *erase 2*
 
-``- Erased a circle (2)``
+``Erased a circle (2)``
 
 *erase 100*
 
@@ -165,7 +165,7 @@ Successfully created rectangle (4)
 
 *translate vertical=10 horizontal=100*
 
-``- Translated all figures``
+``Translated all figures``
 
 *print*
 
@@ -175,11 +175,11 @@ Successfully created rectangle (4)
 
 *save*
 
-``- Successfully saved the changes to figures.svg``
+``Successfully saved the changes to figures.svg``
 
 *exit*
 
-``- Exit``
+``Exit``
 
 
 
