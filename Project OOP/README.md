@@ -222,7 +222,7 @@ example:
 > open C:\Temp\file.xml
 Successfully opened file.xml
 
-- Close
+- Close:
 Close the file.
 
 example:
@@ -230,7 +230,7 @@ example:
 > close
 Successfully closed file.xml
 
-- Save
+- Save:
 Save the changes on top of the same file from which the content is taken.
 
 example: 
@@ -238,7 +238,7 @@ example:
 > save
 Successfully saved file.xml
 
-- Save As
+- Save As:
 Save the changes in a file, while giving the user the ability to specify its path.
 
 example:
@@ -246,7 +246,7 @@ example:
 > saveas "C:\Temp\another file.xml"
 Successfully saved another file.xml
 
-- Exit
+- Exit:
 Exits the program.
 
 example:
