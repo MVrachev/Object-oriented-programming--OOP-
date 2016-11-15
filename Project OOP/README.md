@@ -116,23 +116,23 @@ Within Извежда на екрана всички фигури, които п
 
 - Пример за работа на програмата
 
->open figures.svg
+open figures.svg
 
 Successsfully opened figures.svg
 
-> print
- 1. rectangle 5 5 10 10 green
- 2. circle 5 5 10 blue
- 3. rectangle 100 60 10 10 red
+print
+1. rectangle 5 5 10 10 green
+2. circle 5 5 10 blue
+3. rectangle 100 60 10 10 red
 
 > create rectangle -1000 -1000 10 20 yellow
 Successfully created rectangle (4)
 
->  print
- 1. rectangle 1 1 10 20 green
- 2. circle 5 5 10 blue
- 3. rectangle 100 60 10 10 red
- 4. rectangle 1000 1000 10 20 yellow
+print
+1. rectangle 1 1 10 20 green
+2. circle 5 5 10 blue
+3. rectangle 100 60 10 10 red
+4. rectangle 1000 1000 10 20 yellow
 
 > within rectangle 0 0 30 30
 1. rectangle 5 5 10 10 green
