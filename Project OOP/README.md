@@ -73,6 +73,8 @@ Successfully saved another file.xml
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
+
+
 **Проект 1: Работа със SVG файлове**
 
 В рамките на този проект трябва да се разработи приложение, което работи с SVG файлове.
@@ -92,6 +94,8 @@ Successfully saved another file.xml
 следващия раздел команди, които добавят, изтриват или променят фигурите.
 Когато записвате фигурите във файл, трябва да генерирате валиден SVG файл
 
+
+
 **Операции върху съдържанието на файла**
 
 *Print* Извежда на екрана всички фигури.
@@ -108,6 +112,8 @@ Successfully saved another file.xml
 Потребителят може да укаже какъв да бъде регионът – кръг или
 правоъгълник
 
+
+
 **Примерен SVG файл figures.svg**
 
 <?xml version="1.0" standalone="no"?>
@@ -118,6 +124,8 @@ Successfully saved another file.xml
  <circle cx="5" cy="5" r="10" fill="blue" />
  <rect x="100" y="60" width="10" height="10" fill="red" />
 </svg>
+
+
 
 
 **Пример за работа на програмата:**
@@ -189,14 +197,18 @@ Successfully saved another file.xml
 
 
 
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------
+
 
 
                                                         English
 
 I must admit that the project is not fully completed. The unfinished part of the project is mostly connected with files. The whole work with polymorphism  is finished. is a final project of my Object oriented programming university cours in St. Kliment Ohridski university of Sofia. It is start at 06.07.2016 and finished by the date of: 16.07.2016.
+
+
 
 
 **The way your program shoud work**
@@ -261,6 +273,9 @@ example:
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
+
+
+
 **Project 1: SVG Files.**
 
 You should create a console application which works with SVG files. The application must be able to load figures from the file, to do on them given operations and after that to save to all changes.
@@ -276,6 +291,8 @@ While you are loading the content of an SVG file you can only read the shapes yo
 After you load the file, the user should  be able to execute the commands specified below who adds, deletes or changes figures.
 
 When you save the figures in a file you should create valid SVG file.
+
+
 
 
 **Operations executed upon the file content:**
@@ -294,6 +311,8 @@ If the user specify a shape only that figure is translated.
 The user can specify what region, area will be a circle or rectangle.
 
 
+
+
 **An example of SVG file figures.svg:**
 
 <?xml version="1.0" standalone="no"?>
@@ -304,6 +323,8 @@ The user can specify what region, area will be a circle or rectangle.
  <circle cx="5" cy="5" r="10" fill="blue" />
  <rect x="100" y="60" width="10" height="10" fill="red" />
 </svg>
+
+
 
 
 
