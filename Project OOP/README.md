@@ -116,41 +116,54 @@ Within Извежда на екрана всички фигури, които п
 
 - Пример за работа на програмата
 
--open figures.svg
+>open figures.svg
+
 Successsfully opened figures.svg
-- print
+
+> print
 1. rectangle 5 5 10 10 green
 2. circle 5 5 10 blue
 3. rectangle 100 60 10 10 red
-- create rectangle -1000 -1000 10 20 yellow
+
+> create rectangle -1000 -1000 10 20 yellow
 Successfully created rectangle (4)
-- print
+
+>  print
 1. rectangle 1 1 10 20 green
 2. circle 5 5 10 blue
 3. rectangle 100 60 10 10 red
 4. rectangle 1000 1000 10 20 yellow
-- within rectangle 0 0 30 30
+
+> within rectangle 0 0 30 30
 1. rectangle 5 5 10 10 green
 2. circle 5 5 10 blue
-- within circle 0 0 5
+
+> within circle 0 0 5
 No figures are located within circle 0 0 5
-- erase 2
+
+> erase 2
 Erased a circle (2)
-- erase 100
+
+> erase 100
 There is no figure number 100!
+
 > print
 1. rectangle 5 5 10 10 green
 2. rectangle 100 60 10 10 red
 3. rectangle 1000 1000 10 20 yellow
-- translate vertical=10 horizontal=100
+
+> translate vertical=10 horizontal=100
 Translated all figures
-- print
+
+> print
 1. rectangle 105 15 10 10 green
 2. rectangle 200 70 10 10 red
 3. rectangle 1100 1010 10 20 yellow
+
 > save
 Successfully saved the changes to figures.svg
-- exit
+
+> exit
 Exit
 
 
