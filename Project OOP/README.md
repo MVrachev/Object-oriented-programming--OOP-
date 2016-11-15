@@ -214,9 +214,8 @@ If it's not specified any command must display a message which shows if the oper
 The commands must be supported from every project (below every command there's an example):
 
 - Open:
-Зарежда съдържанието на даден файл. Ако такъв не съществува се създава нов с празно
-съдържание.
-Останалите команди могат да се изпълняват само ако има успешно зареден файл.
+Loads the content of a file. If the specified file doesnt exist, it creates new one with an empty content. 
+The rest of the commands shoud be executed only if there's successfully loaded file.
 
 example:
 
@@ -224,7 +223,7 @@ example:
 Successfully opened file.xml
 
 - Close
-Затваря текущо отворения файл.
+Close the file.
 
 example:
 
@@ -232,7 +231,7 @@ example:
 Successfully closed file.xml
 
 - Save
-Записва направените промени обратно в същия файл, от който са били прочетени данните.
+Save the changes on top of the same file from which the content is taken.
 
 example: 
 
@@ -240,7 +239,7 @@ example:
 Successfully saved file.xml
 
 - Save As
-Записва направените промени във файл, като позволява на потребителя да укаже неговия път.
+Save the changes in a file, while giving the user the ability to specify its path.
 
 example:
 
@@ -248,7 +247,7 @@ example:
 Successfully saved another file.xml
 
 - Exit
-Излиза от програмата
+Exits the program.
 
 example:
 
