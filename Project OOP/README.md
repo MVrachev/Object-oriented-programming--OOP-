@@ -123,9 +123,9 @@ Within Извежда на екрана всички фигури, които п
 
 *print*
 
-``1. rectangle 5 5 10 10 green
-2. circle 5 5 10 blue''
-3. rectangle 100 60 10 10 red``
+``1. rectangle 5 5 10 10 green``
+``2. circle 5 5 10 blue``
+``3. rectangle 100 60 10 10 red``
 
 
 *create rectangle -1000 -1000 10 20 yellow*
@@ -135,15 +135,15 @@ Within Извежда на екрана всички фигури, които п
 
 *print*
 
-``1. rectangle 1 1 10 20 green
-2. circle 5 5 10 blue
-3. rectangle 100 60 10 10 red
-4. rectangle 1000 1000 10 20 yellow``
+``1. rectangle 1 1 10 20 green``
+``2. circle 5 5 10 blue``
+``3. rectangle 100 60 10 10 red``
+``4. rectangle 1000 1000 10 20 yellow``
 
 *within rectangle 0 0 30 30*
 
-``1. rectangle 5 5 10 10 green
-2. circle 5 5 10 blue``
+``1. rectangle 5 5 10 10 green``
+``2. circle 5 5 10 blue``
 
 *within circle 0 0 5*
 
@@ -159,9 +159,9 @@ Within Извежда на екрана всички фигури, които п
 
 *print*
 
-``1. rectangle 5 5 10 10 green
-2. rectangle 100 60 10 10 red
-3. rectangle 1000 1000 10 20 yellow``
+``1. rectangle 5 5 10 10 green``
+``2. rectangle 100 60 10 10 red``
+``3. rectangle 1000 1000 10 20 yellow``
 
 *translate vertical=10 horizontal=100*
 
@@ -169,9 +169,9 @@ Within Извежда на екрана всички фигури, които п
 
 *print*
 
-``1. rectangle 105 15 10 10 green
-2. rectangle 200 70 10 10 red
-3. rectangle 1100 1010 10 20 yellow``
+``1. rectangle 105 15 10 10 green``
+``2. rectangle 200 70 10 10 red``
+``3. rectangle 1100 1010 10 20 yellow``
 
 *save*
 
