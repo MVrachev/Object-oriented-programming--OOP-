@@ -73,7 +73,7 @@ Successfully saved another file.xml
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-**1: Работа със SVG файлове**
+**Проект 1: Работа със SVG файлове**
 
 В рамките на този проект трябва да се разработи приложение, което работи с SVG файлове.
 Приложението трябва да може да зарежда фигури от файла, да извършва върху тях дадени
@@ -91,9 +91,10 @@ Successfully saved another file.xml
 След като заредите фигурите, потребителят трябва да може да изпълнява дадените в
 следващия раздел команди, които добавят, изтриват или променят фигурите.
 Когато записвате фигурите във файл, трябва да генерирате валиден SVG файл
-Операции
-Print Извежда на екрана всички фигури.
-Create Създава нова фигура.
+
+**Операции върху съдържанието на файла**
+``Print`` Извежда на екрана всички фигури.
+``Create`` Създава нова фигура.
 Erase Изтрива фигура
 Translate Транслира една или всички фигури. Ако потребителят не посочи конкретна
 фигура се транслират всички фигури; ако се посочи конкретна – променя се
@@ -254,4 +255,20 @@ example:
 > exit
 
 ----------------------------------------------------------------------------------------------------------------------------------------
+
+**Project 1: SVG Files.**
+
+You should create a console application which works with SVG files. The application must be able to load figures from the file, to do on them given operations and after that to save to all changes.
+
+For ease the project should support only the basic shapes in SVG. Your application shoud support at least three of them. For example you coud choose to support line, circle and rectangle. For more information take a look at: https://www.w3.org/TR/SVG/shapes.html.
+
+Also, for ease we consider that the coordinate system, upon which the program works is the same as the default one or the X coordinate pointing right and Y coordinate pointing down.
+
+The design of the application should be created in  a way that if its needed new functionality to be added easily. 
+
+While you are loading the content of an SVG file you can only read the shapes your program supports the rest of them SVG elements you can ignore.
+
+After you load the file, the user should  be able to execute the commands specified below who adds, deletes or changes figures.
+
+When you save the figures in a file you should create valid SVG file.
 
