@@ -147,7 +147,7 @@ Within Извежда на екрана всички фигури, които п
 
 *within circle 0 0 5*
 
-``o figures are located within circle 0 0 5``
+``figures are located within circle 0 0 5``
 
 *erase 2*
 
