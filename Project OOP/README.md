@@ -194,7 +194,7 @@ Successfully saved another file.xml
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 
-                                                        Enligsh
+                                                        English
 
 I must admit that the project is not fully completed. The unfinished part of the project is mostly connected with files. The whole work with polymorphism  is finished. is a final project of my Object oriented programming university cours in St. Kliment Ohridski university of Sofia. It is start at 06.07.2016 and finished by the date of: 16.07.2016.
 
