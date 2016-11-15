@@ -214,7 +214,7 @@ If it's not specified any command must display a message which shows if the oper
 The commands must be supported from every project (below every command there's an example):
 
 - Open:
-Loads the content of a file. If the specified file doesnt exist, it creates new one with an empty content. 
+loads the content of a file. If the specified file doesnt exist, it creates new one with an empty content. 
 The rest of the commands shoud be executed only if there's successfully loaded file.
 
 example:
@@ -223,7 +223,7 @@ example:
 Successfully opened file.xml
 
 - Close:
-Close the file.
+close the file.
 
 example:
 
@@ -231,7 +231,7 @@ example:
 Successfully closed file.xml
 
 - Save:
-Save the changes on top of the same file from which the content is taken.
+save the changes on top of the same file from which the content is taken.
 
 example: 
 
@@ -239,15 +239,15 @@ example:
 Successfully saved file.xml
 
 - Save As:
-Save the changes in a file, while giving the user the ability to specify its path.
+save the changes in a file, while giving the user the ability to specify its path.
 
 example:
 
 > saveas "C:\Temp\another file.xml"
-Successfully saved another file.xml
+successfully saved another file.xml
 
 - Exit:
-Exits the program.
+exits the program.
 
 example:
 
