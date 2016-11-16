@@ -1,4 +1,4 @@
-# Homework 4 - Object oriented programming course in St. Kliment Ohridski university of Sofia
+# Homework 4 - Object oriented programming course 
 
                                               FOR ENGLISH SCROLL  DOWN!
 
