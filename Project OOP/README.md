@@ -117,7 +117,7 @@ Successfully saved another file.xml
 
 **Примерен SVG файл figures.svg**
 
-<?xml version="1.0" standalone="no"?>
+*<?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg>
@@ -125,7 +125,6 @@ Successfully saved another file.xml
  <circle cx="5" cy="5" r="10" fill="blue" />
  <rect x="100" y="60" width="10" height="10" fill="red" />
 </svg>
-
 
 
 
