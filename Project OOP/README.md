@@ -139,7 +139,9 @@ Successfully saved another file.xml
 *print*
 
 ``1. rectangle 5 5 10 10 green``
+
 ``2. circle 5 5 10 blue``
+
 ``3. rectangle 100 60 10 10 red``
 
 
@@ -151,13 +153,17 @@ Successfully saved another file.xml
 *print*
 
 ``1. rectangle 1 1 10 20 green``
+
 ``2. circle 5 5 10 blue``
+
 ``3. rectangle 100 60 10 10 red``
+
 ``4. rectangle 1000 1000 10 20 yellow``
 
 *within rectangle 0 0 30 30*
 
 ``1. rectangle 5 5 10 10 green``
+
 ``2. circle 5 5 10 blue``
 
 *within circle 0 0 5*
@@ -175,7 +181,9 @@ Successfully saved another file.xml
 *print*
 
 ``1. rectangle 5 5 10 10 green``
+
 ``2. rectangle 100 60 10 10 red``
+
 ``3. rectangle 1000 1000 10 20 yellow``
 
 *translate vertical=10 horizontal=100*
@@ -185,7 +193,9 @@ Successfully saved another file.xml
 *print*
 
 ``1. rectangle 105 15 10 10 green``
+
 ``2. rectangle 200 70 10 10 red``
+
 ``3. rectangle 1100 1010 10 20 yellow``
 
 *save*
@@ -224,6 +234,7 @@ does after that should be kept in the memory, but they shouldn't be saved on top
 Your program must:
 
 1) be able to read a random file from the file format which is specified below;
+
 2) be able when saving the changes to create again a valid file from the same format.
 
 As we said above the user has to be able to input commands whereby to specify what exactly to be done. The commands shoud have
