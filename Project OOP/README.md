@@ -19,6 +19,7 @@
 паметта, но не трябва да се записват обратно, освен ако потребителят изрично не укаже това.
 Във всеки от проектите има посочен конкретен файлове формат, с който приложението ви
 трябва да работи. Това означава, че:
+
 1. то трябва да може да чете произволен валиден файл от въпросния формат;
 2. когато записва данните, то трябва да създава валидни файлове във въпросния формат.
 Както казахме по-горе, потребителят трябва да може да въвежда команди, чрез които да
@@ -221,6 +222,7 @@ When you open certain file it's content has to be loaded in the memory and after
 does after that should be kept in the memory, but they shouldn't be saved on top of the file content unless the user dont give a command for it.
 
 Your program must:
+
 1) be able to read a random file from the file format which is specified below;
 2) be able when saving the changes to create again a valid file from the same format.
 
