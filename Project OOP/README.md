@@ -128,7 +128,7 @@ Successfully saved another file.xml
 
 
 
-**Пример за работа на програмата:**
+# Пример за работа на програмата:
 
 
 *open figures.svg*
@@ -328,7 +328,7 @@ The user can specify what region, area will be a circle or rectangle.
 
 
 
-**An example how your application should work:**
+# An example how your application should work:
 
 
 *open figures.svg*
