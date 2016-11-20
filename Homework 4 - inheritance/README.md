@@ -4,7 +4,7 @@
 
 Това домашно е от курса по "Обектно ориентирано програмиране" към Софийски университет "Свети Климент Охридски".
 Домашното е изцяло за наследяване. В момент когато го писах не знаех какво е полиморфизъм, за това и не съм го използвал.
-Завършено е на: 04.07.2016г.
+Завършено е на: 07.05.2016г.
 
 ·      Да се реализира клас войник. 
 Той трябва да съдържа информация за: име, години, ниво на бойните умения (цяло число) и заплата в златни монети.
@@ -64,7 +64,7 @@ o      Колко злато на месец ще му излиза поддръ
 
 This is a homework from the course "Object oriented programming" in St. Kliment Ohridski university of Sofia.
 The homework is all about inheritance. At the time I did it I didn't know what was polymorphism that's why I didn't use it.
-It is finished by the date of 04.07.2016
+It is finished by the date of 07.05.2016
 
 
 * Create a class soldier. 
