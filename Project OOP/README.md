@@ -7,20 +7,19 @@ I must admit that the project is not fully completed. The unfinished part of the
 
 **The way your program shoud work**
 
-Your program should allow the user with the ability to open files (open), to do some operations upon them and after that to save the
-changes back on top of the same file (save) or on top of another which the user wil specify (save as). There should be an option for closing the file without saving the changes (close). For that purpose, after the program is started the user should be able to input
-different commands after that to execute them.
+Your program should give the user the ability to open files (open), to do some operations upon them and after that to save the
+changes back on top of the same file (save) or on top of another file which the user will specify (save as). There should be an option for closing the file without saving the changes (close). For that purpose, after the program is started the user should be able to input
+different commands and execute them.
 
-When you open certain file it's content has to be loaded in the memory and after that the file is closed. All changes which the user
-does after that should be kept in the memory, but they shouldn't be saved on top of the file content unless the user dont give a command for it.
+When you open certain file it's content has to be loaded in the memory and after that the file should is closed. All changes which the user does after that should be kept in the memory, but they shouldn't be saved on top of the file content unless the user dont give a command for it.
 
-Your program must:
+Your program should:
 
 1) be able to read a random file from the file format which is specified below;
 
 2) be able when saving the changes to create again a valid file from the same format.
 
-As we said above the user has to be able to input commands whereby to specify what exactly to be done. The commands shoud have
+As we said above the user must be able to input commands whereby to specify what exactly to be done. The commands shoud have
 zero, one or more parameters, which are given one after another separated with spaces.
 
 If it's not specified any command must display a message which shows if the operations is executed successfully or not.
@@ -74,13 +73,13 @@ example:
 
 **Project 1: SVG Files.**
 
-You should create a console application which works with SVG files. The application must be able to load figures from the file, to do on them given operations and after that to save to all changes.
+You should create a console application which works with SVG files. The application must be able to load figures from the file, to do on them given operations and after that to save all changes.
 
 For ease the project should support only the basic shapes in SVG. Your application shoud support at least three of them. For example you coud choose to support line, circle and rectangle. For more information take a look at: https://www.w3.org/TR/SVG/shapes.html.
 
-Also, for ease we consider that the coordinate system, upon which the program works is the same as the default one or the X coordinate pointing right and Y coordinate pointing down.
+Also, for ease we consider that the coordinate system, upon which the program works, is the same as the default one or the X coordinate pointing right and Y coordinate pointing down.
 
-The design of the application should be created in  a way that if its needed new functionality to be added easily. 
+The design of the application should be maintainable and new functionality shoud be easily to adopt. 
 
 While you are loading the content of an SVG file you can only read the shapes your program supports the rest of them SVG elements you can ignore.
 
