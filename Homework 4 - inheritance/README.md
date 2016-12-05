@@ -1,7 +1,7 @@
 # Homework 4 - Object oriented programming course 
 
                                      
-This is consonle application which is a homework from the university course "Object oriented programming" in St. Kliment Ohridski university of Sofia.
+This is consonle application which is my fourth homework from the university course "Object oriented programming" in St. Kliment Ohridski university of Sofia.
 The homework is all about inheritance. At the time I did it I didn't know what was polymorphism that's why I didn't use it.
 It is finished by the date of 07.05.2016
 
