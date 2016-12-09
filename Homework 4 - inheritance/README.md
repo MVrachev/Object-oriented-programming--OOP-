@@ -1,4 +1,4 @@
-# Homework 4 - Object oriented programming course 
+# Creating and controlling an abstract army by one pointer
 
                                      
 This is consonle application which is my fourth homework from the university course "Object oriented programming" in St. Kliment Ohridski university of Sofia.
