@@ -1,8 +1,8 @@
-# Object-oriented-programming-OOP university cource Project
+# Parsing, working and generating valid SVG files:
 
                                                    
 
-I must admit that the project is not fully completed. The unfinished part of the project is mostly connected with files. The whole work with polymorphism  is finished and implemented. That's a console application which is the final project of my Object oriented programming university course in St. Kliment Ohridski university of Sofia. It is finished by the date of: 05.07.2016.
+This is my final project at Object-oriented-programming-OOP university course. I must admit that the project is not fully completed. The unfinished part of the project is mostly connected with files. The whole work with polymorphism  is finished and implemented. That's a console application which is the final project of my Object oriented programming university course in St. Kliment Ohridski university of Sofia. It is finished by the date of: 05.07.2016.
 
 
 **The way your program shoud work**
